@@ -7,7 +7,7 @@
 
   // Your email domain — used for sender addresses (local@MAIL_DOMAIN).
   "vars": {
-    "MAIL_DOMAIN": "example.com"
+    "MAIL_DOMAIN": "cloudflare-mail.cc.cd"
   },
 
   // Create with: wrangler d1 create cf-mail
@@ -15,8 +15,8 @@
   "d1_databases": [
     {
       "binding": "DB",
-      "database_name": "cf-mail",
-      "database_id": "REPLACE_WITH_YOUR_D1_ID"
+      "database_name": "cloud-mail-db",
+      "database_id": "d3ff35fd-20fc-4ebc-b404-507c6bd2fcab"
     }
   ],
 
@@ -24,7 +24,7 @@
   "r2_buckets": [
     {
       "binding": "R2",
-      "bucket_name": "cf-mail"
+      "bucket_name": "cloud-mail-r2
     }
   ],
 
